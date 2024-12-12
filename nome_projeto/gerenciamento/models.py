@@ -15,3 +15,14 @@ class Produto(models.Model):
 
     def __str__(self):
         return f"{self.nome} ({self.codigo})"
+
+class Categoria(models.Model):
+
+
+
+class Fornecedor(models.Model):
+    razao_social = models.CharField(max_length=255, verbose_name="Nome da empresa")
+    endereco = models.
+    CNPJ
+    contato
+    tipo_produto
